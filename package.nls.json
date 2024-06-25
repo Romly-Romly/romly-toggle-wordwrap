@@ -1,0 +1,11 @@
+{
+	"commandTitle.execute": "Romly: Toggle Wordwrap",
+	"toggleValue": "The value to set when toggling word wrap on. This value will be directly applied to `editor.wordWrap`.",
+	"toggleValue.on": "Lines will wrap at viewport width.",
+	"toggleValue.wordWrapColumn": "Lines will wrap at `editor.wordWrapColumn`.",
+	"toggleValue.bounded": "Lines will wrap at the minimum of viewport and `editor.wordWrapColumn`.",
+	"configurationTarget": "Target for updating the word wrap setting.",
+	"configurationTarget.global": "Updates the global setting.",
+	"configurationTarget.workspace": "Updates the workspace setting.",
+	"configurationTarget.workspaceFirst": "Trys to update the workspace setting, but updates the global setting if no workspace is open."
+}

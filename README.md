@@ -14,7 +14,9 @@
 
 ### 拡張機能の設定
 
-ありません！
+* `romly-toggle-wordwrap.toggleValue`: 折り返しを有効にした時の値を`on`, `wordWrapColumn`, `bounded`から選択できます。
+
+* `romly-toggle-wordwrap.configurationTarget`: 折り返し設定の書き込み先をグローバル設定／ワークスペース設定／ワークスペース設定優先から選択できます。
 
 ### リリースノート
 
@@ -37,7 +39,9 @@ Just type `toggle wordwrap` or somethin in the command palette and execute it. S
 
 ### Extension Settings
 
-Nothing!
+* `romly-toggle-wordwrap.toggleValue`: Allows selection of the value for enabling word wrap from `on`, `wordWrapColumn`, and `bounded`.
+
+* `romly-toggle-wordwrap.configurationTarget`: You can select the target for the word wrap setting from global settings, workspace settings, or prefer workspace settings.
 
 ### Release Notes
 
