@@ -2,7 +2,7 @@
 	"name": "romly-toggle-wordwrap",
 	"displayName": "Romly Toggle Wordwrap",
 	"description": "Quickly toggle word wrap setting on/off. 行の折り返し設定を on/off で素早く切り替えます。",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"publisher": "Romly",
 	"engines": {
 		"vscode": "^1.90.0"
@@ -25,7 +25,8 @@
 		"commands": [
 			{
 				"command": "romly-toggle-wordwrap.execute",
-				"title": "%commandTitle.execute%"
+				"title": "%commandTitle.execute%",
+				"category": "Romly"
 			}
 		],
 

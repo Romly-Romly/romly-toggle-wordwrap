@@ -1,5 +1,5 @@
 {
-	"commandTitle.execute": "Romly: Toggle Wordwrap",
+	"commandTitle.execute": "Toggle Wordwrap",
 	"toggleValue": "The value to set when toggling word wrap on. This value will be directly applied to `editor.wordWrap`.",
 	"toggleValue.on": "Lines will wrap at viewport width.",
 	"toggleValue.wordWrapColumn": "Lines will wrap at `editor.wordWrapColumn`.",

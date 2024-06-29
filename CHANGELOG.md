@@ -4,6 +4,12 @@
 
 [English is here](#english英語)
 
+### [1.1.1] - 2024-06-29
+
+#### 修正
+- 拡張機能コマンドのカテゴリを設定
+- 拡張機能のアイコンの背景が透過されていなかった問題を修正
+
 ### [1.1.0] - 2024-06-25
 
 #### 追加
@@ -27,6 +33,13 @@
 ## English(英語)
 
 [日本語(Japanese)はこちら](#日本語japanese)
+
+### [1.1.1] - 2024-06-29
+
+#### Fixed
+
+- Set categories for extension commands
+- Fixed an issue the background of the extension icon was not transparent
 
 ### [1.1.0] - 2024-06-25
 

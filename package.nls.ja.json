@@ -1,5 +1,5 @@
 {
-	"commandTitle.execute": "Romly: 折り返し設定の切り替え",
+	"commandTitle.execute": "折り返し設定の切り替え",
 	"toggleValue": "折り返しをオンに切り替える時に設定する値。この値がそのまま`editor.wordWrap`に設定されます。",
 	"toggleValue.on": "行をビューポートの幅で折り返します。",
 	"toggleValue.wordWrapColumn": "`editor.wordWrapColumn`で行を折り返します。",
