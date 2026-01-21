@@ -16,13 +16,32 @@
 
 * `romly-toggle-wordwrap.toggleValue`: 折り返しを有効にした時の値を`on`, `wordWrapColumn`, `bounded`から選択できます。
 
-* `romly-toggle-wordwrap.configurationTarget`: 折り返し設定の書き込み先をグローバル設定／ワークスペース設定／ワークスペース設定優先から選択できます。
+* `romly-toggle-wordwrap.configurationTarget`: 折り返し設定の書き込み先を選択します。`auto` **(推奨)** は現在有効な設定スコープに、`workspace`はできるだけワークスペース設定に書き込みます。ワークスペース設定より優先される設定がある場合はそちらを上書きします。
+
+* `romly-toggle-wordwrap.limitToLanguageScope`: 有効にすると言語固有の設定に書き込みます。テキストドキュメント編集中に切り替えた場合にのみ有効です。
 
 ### リリースノート
 
 変更ログ [CHANGELOG.md](CHANGELOG.md) をご覧下さい。
 
+
+
+
+
+
+
+
+
+
 -----
+
+
+
+
+
+
+
+
 
 
 ## English(英語)
@@ -41,7 +60,9 @@ Just type `toggle wordwrap` or somethin in the command palette and execute it. S
 
 * `romly-toggle-wordwrap.toggleValue`: Allows selection of the value for enabling word wrap from `on`, `wordWrapColumn`, and `bounded`.
 
-* `romly-toggle-wordwrap.configurationTarget`: You can select the target for the word wrap setting from global settings, workspace settings, or prefer workspace settings.
+* `romly-toggle-wordwrap.configurationTarget`: Select where to save the word wrap setting. `auto` **(Recommended)** writes to the current active scope, while `workspace` writes to workspace settings when possible. If a higher-priority setting exists, it will be overwritten instead.
+
+* `romly-toggle-wordwrap.limitToLanguageScope`: When enabled, writes to language-specific settings. Only effective when toggled while editing a text document.
 
 ### Release Notes
 

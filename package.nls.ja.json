@@ -1,11 +1,13 @@
 {
 	"commandTitle.execute": "折り返し設定の切り替え",
-	"toggleValue": "折り返しをオンに切り替える時に設定する値。この値がそのまま`editor.wordWrap`に設定されます。",
+	"toggleValue": "折り返しをオンに切り替える時に設定する値。この値がそのまま `#editor.wordWrap#` に設定されます。",
 	"toggleValue.on": "行をビューポートの幅で折り返します。",
-	"toggleValue.wordWrapColumn": "`editor.wordWrapColumn`で行を折り返します。",
-	"toggleValue.bounded": "ビューポートと`editor.wordWrapColumn`の最小値で行を折り返します。",
+	"toggleValue.wordWrapColumn": "`#editor.wordWrapColumn#` で行を折り返します。",
+	"toggleValue.bounded": "ビューポートと `#editor.wordWrapColumn#` の最小値で行を折り返します。",
+
 	"configurationTarget": "折り返し設定の書き込み先。",
-	"configurationTarget.global": "グローバル設定に書き込みます。",
-	"configurationTarget.workspace": "ワークスペース設定に書き込みます。",
-	"configurationTarget.workspaceFirst": "ワークスペース設定を優先し、ワークスペースを開いていない場合はグローバル設定に書き込みます。"
+	"configurationTarget.auto": "現在有効な設定が読み取られているスコープに書き込みます。 **(推奨)**",
+	"configurationTarget.workspace": "ワークスペース設定に書き込みます。ワークスペース固有の設定を作成したい場合に使用します。ワークスペースが開かれていない場合はグローバル設定に書き込みます。",
+
+	"limitToLanguageScope": "テキストドキュメントを編集中に切り替えた場合、言語固有の設定に書き込みます。"
 }

@@ -1,17 +1,12 @@
-import { LocalizedMessages } from "./i18n";
+import { I18NText } from "./romlylib/i18n";
 
-const messages: LocalizedMessages =
+class ProjectMessages
 {
-	'error.updateFail':
+	'error.updateFail': I18NText =
 	{
-		ja: '`editor.wordWrap`の更新に失敗しました',
+		ja: '`editor.wordWrap` の更新に失敗しました',
 		en: 'Failed to update `editor.wordWrap`',
-	},
-	'error.workspaceNotOpened':
-	{
-		ja: 'ワークスペースが開かれていないため、ワークスペース設定に書き込めません。',
-		en: "Couldn't write to workspace settings because workspace is not opened.",
-	}
+	};
 };
 
-export default messages;
+export const I18NSTR = new ProjectMessages();

@@ -1,8 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
 out
-dist
-node_modules
-.vscode-test/
 *.vsix
 
-# vscode
+# VSCode settings
 .vscode/
+.vscode-test/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env

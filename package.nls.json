@@ -4,8 +4,10 @@
 	"toggleValue.on": "Lines will wrap at viewport width.",
 	"toggleValue.wordWrapColumn": "Lines will wrap at `editor.wordWrapColumn`.",
 	"toggleValue.bounded": "Lines will wrap at the minimum of viewport and `editor.wordWrapColumn`.",
+
 	"configurationTarget": "Target for updating the word wrap setting.",
-	"configurationTarget.global": "Updates the global setting.",
-	"configurationTarget.workspace": "Updates the workspace setting.",
-	"configurationTarget.workspaceFirst": "Trys to update the workspace setting, but updates the global setting if no workspace is open."
+	"configurationTarget.auto": "Updates the scope where the current setting is being read from. **(Recommended)**",
+	"configurationTarget.workspace": "Updates the workspace setting. Use this to create workspace-specific configuration. Falls back to global setting if no workspace is open.",
+
+	"limitToLanguageScope": "When toggled while editing a text document, writes to language-specific settings."
 }
